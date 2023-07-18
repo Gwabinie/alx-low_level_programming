@@ -10,23 +10,23 @@
  */
 int main(void)
 {
-	int number = 0;
+    int number = 0;
 
-	while (number <= 9)
-	{
-		putchar(number + '0');
+    while (number <= 9)
+    {
+        putchar(number + '0');
 
-		if (number != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+        if (number != 9)
+        {
+            putchar(',');
+            putchar(' ');
+        }
 
-		number++;
-	}
+        number++;
+    }
 
-	putchar('\n');
+    putchar('\n');
 
-	return (0);
+    return (0);
 }
 
